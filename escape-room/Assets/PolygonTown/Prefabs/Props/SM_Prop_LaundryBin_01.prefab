@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4804318186954430}
   - component: {fileID: 33353175681735334}
   - component: {fileID: 23436203880464750}
-  - component: {fileID: 6854274596484238565}
-  - component: {fileID: 8070877819710965309}
-  - component: {fileID: 388617605976640694}
+  - component: {fileID: 5625826987405955838}
+  - component: {fileID: 5501871555401788300}
+  - component: {fileID: 1206910384545746233}
   m_Layer: 0
   m_Name: SM_Prop_LaundryBin_01
   m_TagString: Untagged
@@ -87,7 +87,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &6854274596484238565
+--- !u!54 &5625826987405955838
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -100,10 +100,10 @@ Rigidbody:
   m_AngularDrag: 1
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &8070877819710965309
+--- !u!64 &5501871555401788300
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,7 +117,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 8371fc53250f7b84e8f2ef7bdfe64561, type: 3}
---- !u!114 &388617605976640694
+--- !u!114 &1206910384545746233
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
